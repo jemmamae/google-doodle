@@ -1,0 +1,49 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+*/
+
+/* * {
+    outline: 1px dotted black;
+}
+ */
+/* Doodle Stage */
+#stage {
+/*   background: #ccc; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 18px #a4dcdc;
+  border-radius: 50%;
+  height: 400px;
+  width: 600px;
+  background: azure;
+}
+
+/* SVG Elements */
+/* Check-Check: Correct selectors? */
+.letter {
+  -webkit-filter: drop-shadow( 4px 4px 2px #a4dcdc);
+  filter: drop-shadow( 4px 4px 2px #a4dcdc);
+}
+#g1 {
+  fill: #4185f3;
+}
+#o1 {
+  fill: #ea4435;
+}
+#o2 {
+  fill: #fabd03;
+}
+#g2 {
+  fill: #4185f3;
+}
+#l {
+  fill: #33a852;
+}
+#e {
+  fill: #ea4435;
+}
